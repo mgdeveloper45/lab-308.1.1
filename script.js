@@ -17,6 +17,9 @@ const subFirstFromSec = n2 - n1;
 // Multiply the result by the third number
 const mulByThird = subFirstFromSec * n2;
 
+// Find the remainder of dividing the result by the fourth number
+const remainderByFourth = mulByThird % n4;
+
 // Check one: add up to 50
 // This is a fairly simple operation using
 // arithmetic operators and a comparison.

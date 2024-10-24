@@ -5,8 +5,11 @@ const n3 = 20;
 const n4 = 5;
 
 
-//Check if all numbers are divisble by 5
-const divByFive = n1 % 5 === 0 && n2 % 5 === 0 && n3 % 5 === 0 && n4 % 5 === 0 && n5 % 5 === 0;
+// Check if all numbers are divisble by 5
+const divByFive = n1 % 5 === 0 && n2 % 5 === 0 && n3 % 5 === 0 && n4 % 5 === 0;
+
+// Check if first number is greater than the last
+const firstGreaterThanLast = n1 > n4;
 
 // Check one: add up to 50
 // This is a fairly simple operation using
